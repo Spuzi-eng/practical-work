@@ -1,0 +1,27 @@
+using System;
+
+
+namespace Практическая_работа__1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите число");
+            string x = Console.ReadLine();
+            int num1 = Convert.ToInt32(x);
+            if (num1 > 0)
+            {
+                Console.WriteLine(num1 - 50);
+            }
+            else
+            {
+                Console.WriteLine(num1 + 100);
+                Console.ReadLine();
+            }
+
+            
+
+        }
+    }
+}
