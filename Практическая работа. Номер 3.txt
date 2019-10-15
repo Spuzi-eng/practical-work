@@ -1,0 +1,23 @@
+using System;
+
+namespace Практическая_работа__1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите свой рост");
+            int x = Int32.Parse(Console.ReadLine());
+            if (x > 180)
+            {
+                Console.WriteLine("Высокий");
+                Console.ReadKey();
+            }
+            if (x < 180)
+            {
+                Console.WriteLine("Не очень высокий");
+                Console.ReadKey();
+            }
+        }
+    }
+}
