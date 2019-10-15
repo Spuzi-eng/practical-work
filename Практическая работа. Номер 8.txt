@@ -1,0 +1,27 @@
+using System;
+
+namespace Практическая_работа___1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите стаж работы");
+            int x = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Введите возраст");
+            int y = Int32.Parse(Console.ReadLine());
+            if (x >= 3)
+            if (y >= 20)
+                {
+                    Console.WriteLine("Кандидат подходит под требования");
+                    Console.ReadKey();
+                }
+                if (x < 3)
+                if (y < 20)
+                {
+                    Console.WriteLine("Кандидат не подходит под требования");
+                    Console.ReadKey();
+                }
+        }
+    }
+}
