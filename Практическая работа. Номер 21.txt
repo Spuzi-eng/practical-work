@@ -1,0 +1,23 @@
+using System;
+
+namespace Практическая_работа__1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите температуру тела человека");
+            int t = Int32.Parse(Console.ReadLine());
+            if (t > 36)
+            {
+                Console.WriteLine("Человек болен");
+                Console.ReadKey();
+            }
+            if (t == 36)
+            {
+                Console.WriteLine("Человек здоров");
+                Console.ReadKey();
+            }
+        }
+    }
+}

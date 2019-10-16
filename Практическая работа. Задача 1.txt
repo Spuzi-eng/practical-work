@@ -1,0 +1,23 @@
+using System;
+
+namespace Практическая__1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Сколько вам лет?");
+            int x = Int32.Parse(Console.ReadLine());
+            if (x >= 18)
+            {
+                Console.WriteLine("Вы совершеннолетний");
+                Console.ReadKey();
+            }
+            else if (x < 18)
+            {
+                Console.WriteLine("Вы несовершеннолетний");
+                Console.ReadKey();
+            }
+        }
+    }
+}
