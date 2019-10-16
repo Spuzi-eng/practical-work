@@ -1,0 +1,28 @@
+using System;
+
+namespace Практическая_работа__1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите свой возраст");
+            int x = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Введите свой рост");
+            int y = Int32.Parse(Console.ReadLine());
+            if (x >= 13)
+                if (y >= 165)
+                {
+                    Console.WriteLine("Вы зачислены в секцию");
+                    Console.ReadKey();
+                }
+                if (x<13)
+                if (y<165)
+                {
+                    Console.WriteLine("Вы не зачислены в секцию");
+                    Console.ReadKey();
+                }
+
+        }
+    }
+}

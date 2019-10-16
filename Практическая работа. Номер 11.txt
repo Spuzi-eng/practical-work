@@ -1,0 +1,32 @@
+using System;
+
+namespace Практическая_работа__1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите первое число");
+            int x = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Введите второе число");
+            int y = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Введите третье число");
+            int z = Int32.Parse(Console.ReadLine());
+            if (x > 0)
+                if (y > 0)
+                    if (z > 0)
+                    {
+                        Console.WriteLine(x + y + z);
+                        Console.ReadKey();
+                    }
+                    if(x < 0)
+                if (y < 0)
+                    if (z < 0)
+                    {
+                        Console.WriteLine("Не решить");
+                        Console.ReadKey();
+                    }
+
+        }
+    }
+}

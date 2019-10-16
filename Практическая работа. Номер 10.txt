@@ -1,0 +1,24 @@
+using System;
+
+namespace Практическая_работа__1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите число");
+            int x = Int32.Parse(Console.ReadLine());
+            if (x > 9)
+            {
+                Console.WriteLine("Вы ввели двузначное число");
+                Console.ReadKey();
+            }
+            if (x <= 9)
+            {
+                Console.WriteLine("Вы ввели однозначное число");
+                Console.ReadKey();
+            }
+
+        }
+    }
+}
